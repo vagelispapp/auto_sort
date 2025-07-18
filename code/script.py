@@ -8,7 +8,7 @@ from tkinter import messagebox
 DESTINATION = os.getcwd()
 SOURCE = os.getcwd()
 all_files = os.listdir(DESTINATION)
-# remove the script from the list
+# remove script from the list
 try:
     all_files.remove("auto_sort.exe")
 except:
